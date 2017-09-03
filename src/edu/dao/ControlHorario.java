@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.materias.controlador;
+package edu.dao;
 
-import com.materias.conexion.Conexion;
-import com.materias.modelo.Grupo;
-import com.materias.modelo.Horario;
+import edu.conexion.Conexion;
+import edu.modelo.Grupo;
+import edu.modelo.Horario;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

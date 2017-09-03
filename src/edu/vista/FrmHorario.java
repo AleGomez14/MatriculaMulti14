@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.materias.vista;
+package edu.vista;
 
-import com.materias.controlador.ControlGrupo;
-import com.materias.controlador.ControlHorario;
-import com.materias.controlador.ControladorMateria;
-import com.materias.modelo.Grupo;
-import com.materias.modelo.Horario;
-import com.materias.modelo.MateriaModelo;
+import edu.dao.ControlGrupo;
+import edu.dao.ControlHorario;
+import edu.dao.ControladorMateria;
+import edu.modelo.Grupo;
+import edu.modelo.Horario;
+import edu.modelo.MateriaModelo;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.ComboBoxModel;

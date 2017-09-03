@@ -1,8 +1,8 @@
 
-package com.materias.controlador;
+package edu.dao;
 
-import com.materias.conexion.Conexion;
-import com.materias.modelo.Grupo;
+import edu.conexion.Conexion;
+import edu.modelo.Grupo;
 import java.util.ArrayList;
 import java.util.List;
 import java.sql.*;

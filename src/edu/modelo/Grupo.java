@@ -1,4 +1,4 @@
-package com.materias.modelo;
+package edu.modelo;
 
 /**
  * Nombre de la clase:Grupo

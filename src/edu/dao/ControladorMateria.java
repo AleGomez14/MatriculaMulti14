@@ -1,12 +1,12 @@
 
-package com.materias.controlador;
+package edu.dao;
 
-import com.materias.conexion.Conexion;
+import edu.conexion.Conexion;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-import com.materias.modelo.MateriaModelo;
+import edu.modelo.MateriaModelo;
 /**
  * Nombre de la clase:ControladorMateria
  * Fecha:1/09/2017

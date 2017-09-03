@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.materias.controlador;
+package edu.dao;
 
-import com.materias.conexion.Conexion;
-import com.materias.modelo.Inscripcion;
-import com.materias.modelo.Usuario;
+import edu.conexion.Conexion;
+import edu.modelo.Inscripcion;
+import edu.modelo.Usuario;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

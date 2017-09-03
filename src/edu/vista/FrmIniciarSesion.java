@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.materias.vista;
+package edu.vista;
 
-import com.materias.controlador.ControlUsuario;
-import com.materias.modelo.Usuario;
+import edu.dao.ControlUsuario;
+import edu.modelo.Usuario;
 import javax.swing.JOptionPane;
 
 /**

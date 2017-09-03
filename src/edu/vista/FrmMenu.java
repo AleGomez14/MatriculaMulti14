@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package com.materias.vista;
+package edu.vista;
 
-import com.materias.modelo.Usuario;
+import edu.modelo.Usuario;
 
 /**
  * Nombre de la clase:FrmMenu

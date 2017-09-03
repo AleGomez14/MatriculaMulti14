@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.materias.vista;
+package edu.vista;
 
-import com.materias.controlador.ControlGrupo;
-import com.materias.modelo.Grupo;
+import edu.dao.ControlGrupo;
+import edu.modelo.Grupo;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
