@@ -9,8 +9,11 @@ package com.materias.vista;
 import com.materias.modelo.Usuario;
 
 /**
- *
- * @author pc
+ * Nombre de la clase:FrmMenu
+ * Fecha:1/09/2017
+ * Version:1.0
+ * Copyright:ITCA-FEPADE
+ * @author Gabriela Gomez, Carlos paniagua,Ivan Deras
  */
 public class FrmMenu extends javax.swing.JFrame {
 
@@ -62,16 +65,20 @@ public class FrmMenu extends javax.swing.JFrame {
         );
         jDesktopPane1Layout.setVerticalGroup(
             jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 372, Short.MAX_VALUE)
+            .addGap(0, 327, Short.MAX_VALUE)
         );
 
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/img/003-herramientas-del-empleado-de-mantenimiento.png"))); // NOI18N
         jMenu1.setText("MANTENIMIENTOS");
+        jMenu1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jMenu1MouseClicked(evt);
             }
         });
 
+        jMenuItem1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/img/005-jefe.png"))); // NOI18N
         jMenuItem1.setText("USUARIOS");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +87,8 @@ public class FrmMenu extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem1);
 
+        jMenuItem2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/img/004-libro.png"))); // NOI18N
         jMenuItem2.setText("MATERIAS");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,6 +97,8 @@ public class FrmMenu extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem2);
 
+        jMenuItem3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/img/002-usuarios-multiples-en-silueta.png"))); // NOI18N
         jMenuItem3.setText("GRUPOS");
         jMenuItem3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -101,6 +112,8 @@ public class FrmMenu extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem3);
 
+        jMenuItem4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/img/003-horario.png"))); // NOI18N
         jMenuItem4.setText("HORARIOS");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,7 +124,9 @@ public class FrmMenu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/img/001-ticket.png"))); // NOI18N
         jMenu2.setText("INSCRIBIR");
+        jMenu2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jMenu2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jMenu2MouseClicked(evt);

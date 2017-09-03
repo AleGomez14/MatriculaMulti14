@@ -6,8 +6,11 @@
 package com.materias.modelo;
 
 /**
- *
- * @author pc
+ * Nombre de la clase:Horario
+ * Fecha:1/09/2017
+ * Version:1.0
+ * Copyright:ITCA-FEPADE
+ * @author Gabriela Gomez, Carlos paniagua,Ivan Deras
  */
 public class Horario {
     private int idhorario;

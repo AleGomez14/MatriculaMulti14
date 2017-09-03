@@ -13,8 +13,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- * @author pc
+ * Nombre de la clase:ControlUsuario
+ * Fecha:1/09/2017
+ * Version:1.0
+ * Copyright:ITCA-FEPADE
+ * @author Gabriela Gomez, Carlos paniagua,Ivan Deras
  */
 public class ControlUsuario extends Conexion{
     

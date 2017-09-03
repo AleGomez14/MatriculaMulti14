@@ -13,8 +13,11 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
- *
- * @author pc
+ * Nombre de la clase:FrmGrupo
+ * Fecha:1/09/2017
+ * Version:1.0
+ * Copyright:ITCA-FEPADE
+ * @author Gabriela Gomez, Carlos paniagua,Ivan Deras
  */
 public class FrmGrupo extends javax.swing.JInternalFrame {
             private  ControlGrupo cg=new ControlGrupo();
