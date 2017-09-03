@@ -20,7 +20,8 @@ public class FrmIniciarSesion extends javax.swing.JFrame {
      */
     public FrmIniciarSesion() {
         initComponents();
-        setExtendedState(MAXIMIZED_BOTH);
+        
+       
     }
 
     /**
@@ -43,6 +44,10 @@ public class FrmIniciarSesion extends javax.swing.JFrame {
         jLabel1.setText("CARNET");
 
         jLabel2.setText("CONTRASEÑA");
+
+        jTxtCarnet.setText("123456");
+
+        jTxtContra.setText("itca123");
 
         jButton1.setText("ENTRAR");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -108,7 +113,7 @@ public class FrmIniciarSesion extends javax.swing.JFrame {
     user.setCarnet(jTxtCarnet.getText());
     user.setContra(jTxtContra.getText());
     ControlUsuario cu = new ControlUsuario();
-        String nivel = cu.login(user);
+        Usuario nivel = cu.login(user);
         if (!nivel.equals("")) {
             FrmMenu menu= new FrmMenu();
             menu.setNivel(nivel);

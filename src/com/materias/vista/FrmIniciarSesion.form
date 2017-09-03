@@ -76,8 +76,14 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTxtCarnet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="123456"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JPasswordField" name="jTxtContra">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="itca123"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>

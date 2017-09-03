@@ -1,23 +1,23 @@
-
 package com.materias.modelo;
 
 /**
  *
- * @author  pc
+ * @author pc
  */
 public class Grupo {
-    
+
     private int idGrupo;
     private String nombre;
     private int cupo;
 
     @Override
-    public String toString()
- {
-                return nombre;
-}
+    public String toString() {
+        return nombre;
+    }
+
     public Grupo() {
     }
+
     public Grupo(int idGrupo, String nombre, int cupo) {
         this.idGrupo = idGrupo;
         this.nombre = nombre;
@@ -48,8 +48,4 @@ public class Grupo {
         this.cupo = cupo;
     }
 
-    
-    
-    
-    
 }

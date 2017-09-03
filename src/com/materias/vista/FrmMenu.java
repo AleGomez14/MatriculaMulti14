@@ -6,6 +6,8 @@
 
 package com.materias.vista;
 
+import com.materias.modelo.Usuario;
+
 /**
  *
  * @author pc
@@ -15,17 +17,18 @@ public class FrmMenu extends javax.swing.JFrame {
     /** Creates new form FrmMenu */
     public FrmMenu() {
         initComponents();
+         setExtendedState(MAXIMIZED_BOTH);
         
     }
-    private String nivel;
+    private Usuario nivel;
 
-    public String getNivel() {
+    public Usuario getNivel() {
         return nivel;
     }
 
-    public void setNivel(String nivel) {
+    public void setNivel(Usuario nivel) {
         this.nivel = nivel;
-        if (this.nivel.equals("alumno")) {
+        if (this.nivel.getTipo().equals("alumno")) {
             jMenu1.setEnabled(false);
             jMenu1.setVisible(false);
         }
@@ -109,6 +112,11 @@ public class FrmMenu extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("INSCRIBIR");
+        jMenu2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jMenu2MouseClicked(evt);
+            }
+        });
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -145,6 +153,9 @@ public class FrmMenu extends javax.swing.JFrame {
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
+        FrmHorario ma= new FrmHorario();
+       this.jDesktopPane1.add(ma);
+       ma.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenuItem3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenuItem3MouseClicked
@@ -154,6 +165,14 @@ public class FrmMenu extends javax.swing.JFrame {
     private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu1MouseClicked
         
     }//GEN-LAST:event_jMenu1MouseClicked
+
+    private void jMenu2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu2MouseClicked
+        // TODO add your handling code here:
+         FrmInscribir ma= new FrmInscribir();
+         ma.setUser(nivel);
+       this.jDesktopPane1.add(ma);
+       ma.setVisible(true);
+    }//GEN-LAST:event_jMenu2MouseClicked
 
     /**
      * @param args the command line arguments

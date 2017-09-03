@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author fam Gomez
+ * @author pc
  */
 public class FrmMateria extends javax.swing.JInternalFrame {
             private  ControladorMateria cm=new ControladorMateria();

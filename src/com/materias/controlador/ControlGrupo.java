@@ -40,7 +40,7 @@ public class ControlGrupo extends Conexion{
     {
         boolean flag=false;
         try {
-            this.getCn();
+            this.conectar();
             String sql="insert into grupo (nombre,cupo)"
                     + "values(?,?)";
             PreparedStatement pre=this.getCn().prepareStatement(sql);

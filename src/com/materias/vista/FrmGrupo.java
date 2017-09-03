@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author fam Gomez
+ * @author pc
  */
 public class FrmGrupo extends javax.swing.JInternalFrame {
             private  ControlGrupo cg=new ControlGrupo();
