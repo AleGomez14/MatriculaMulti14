@@ -109,18 +109,20 @@ List<Horario> lh = ch.mostrar(g.getIdGrupo());
 
         setClosable(true);
 
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("ALUMNO: ");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("GRUPO: ");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jComboBox1.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 jComboBox1ItemStateChanged(evt);
             }
         });
 
-        jTextField1.setText("jTextField1");
+        jTextField1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jTextField1.setEnabled(false);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -136,8 +138,11 @@ List<Horario> lh = ch.mostrar(g.getIdGrupo());
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setText("HORARIOS");
 
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/img/004-libro.png"))); // NOI18N
         jButton1.setText("INSCRIBIR");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -155,6 +160,7 @@ List<Horario> lh = ch.mostrar(g.getIdGrupo());
         ));
         jScrollPane2.setViewportView(jTable2);
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("INSCRIPCIÓN");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -214,7 +220,7 @@ List<Horario> lh = ch.mostrar(g.getIdGrupo());
                 .addComponent(jLabel4)
                 .addGap(3, 3, 3)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         pack();

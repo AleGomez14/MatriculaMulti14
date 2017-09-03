@@ -132,6 +132,11 @@ public class FrmMenu extends javax.swing.JFrame {
                 jMenu2MouseClicked(evt);
             }
         });
+        jMenu2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu2ActionPerformed(evt);
+            }
+        });
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -182,12 +187,16 @@ public class FrmMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenu1MouseClicked
 
     private void jMenu2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu2MouseClicked
-        // TODO add your handling code here:
-         FrmInscribir ma= new FrmInscribir();
+FrmInscribir ma= new FrmInscribir();
          ma.setUser(nivel);
        this.jDesktopPane1.add(ma);
-       ma.setVisible(true);
+       ma.setVisible(true);       
+         
     }//GEN-LAST:event_jMenu2MouseClicked
+
+    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
+        
+    }//GEN-LAST:event_jMenu2ActionPerformed
 
     /**
      * @param args the command line arguments
